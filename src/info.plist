@@ -25,7 +25,7 @@
 	<key>createdby</key>
 	<string>Fabio Niephaus</string>
 	<key>description</key>
-	<string>Quickly check build statuses on travis-ci.org</string>
+	<string>Quickly check build statuses on travis-ci.com</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -54,7 +54,7 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Contacting travis-ci.org...</string>
+				<string>Contacting travis-ci....</string>
 				<key>script</key>
 				<string>python travis-ci.py '{query}'</string>
 				<key>scriptargtype</key>
@@ -85,7 +85,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>open "https://travis-ci.org/{query}"</string>
+				<string>open "https://travis-ci.com/{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
