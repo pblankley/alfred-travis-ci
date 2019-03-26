@@ -3,7 +3,7 @@ import sys
 import humanize
 from workflow import Workflow, web
 
-API_BASE_URL = 'https://api.travis-ci.org'
+API_BASE_URL = 'https://api.travis-ci.com'
 # GitHub repo for self-updating
 GITHUB_UPDATE_CONF = {'github_slug': 'fniephaus/alfred-travis-ci'}
 # GitHub Issues
